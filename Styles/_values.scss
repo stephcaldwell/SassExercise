@@ -1,0 +1,15 @@
+// 4
+// Partial file created
+// 6
+$brown1: #964B00;
+// 11
+%center {
+  text-align: center;
+  padding: 20px;
+}
+// BONUS 3
+@mixin flex ($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
